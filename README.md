@@ -33,4 +33,6 @@ https://github.com/viktorpetrov1997/RockPaperScissorsGame/blob/main/RockPaperSci
 ### Screenshots
 ![image](https://user-images.githubusercontent.com/126717931/222573416-a82b4240-60e9-46e4-bf7f-8b5f6fed8609.png)
 
+### Live demo
+<a href="https://replit.com/@viktorpetrov97/GuessANumber#Main.java"><img src="https://www.tutorialspoint.com/assets/questions/media/426142-1668760872.png" style="width:100px;height:100px;"></a>
 
