@@ -1,4 +1,4 @@
-# RockPaperScissorsGame
+# The "Rock - Paper - Scissors" Game
 
 ### Project Goals
 The goal of the project is to create a game called Rock-Paper-Scissors.
