@@ -28,7 +28,7 @@ After that we print the score of the players so far and ask the player if he/she
 ![image](https://user-images.githubusercontent.com/126717931/222573039-289b805d-c95d-4705-a85f-6ed191350259.png)
 
 ### Source code link
-https://github.com/viktorpetrov1997/RockPaperScissorsGame/blob/main/RockPaperScissors.java
+<a href="https://github.com/viktorpetrov1997/RockPaperScissorsGame/blob/main/RockPaperScissors.java">[Source code]</a>
 
 ### Screenshots
 ![image](https://user-images.githubusercontent.com/126717931/222573416-a82b4240-60e9-46e4-bf7f-8b5f6fed8609.png)
