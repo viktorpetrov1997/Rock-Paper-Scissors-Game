@@ -34,5 +34,8 @@ After that we print the score of the players so far and ask the player if he/she
 ![image](https://user-images.githubusercontent.com/126717931/222573416-a82b4240-60e9-46e4-bf7f-8b5f6fed8609.png)
 
 ### Live demo
-<a href="https://replit.com/@viktorpetrov97/RockPaperScissorsGame#Main.java"><img src="https://www.tutorialspoint.com/assets/questions/media/426142-1668760872.png" style="width:100px;height:100px;"></a>
+You can try the game directly in your web browser here:
+
+<a href="https://replit.com/@viktorpetrov97/RockPaperScissorsGame#Main.java"><img src="https://user-images.githubusercontent.com/126717931/225292877-37b48e35-8ce7-49ac-85ff-304c51ad5609.png"></a>
+
 
