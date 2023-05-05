@@ -15,7 +15,7 @@ The rules are as follows:
 The winner is the player whose choice beats the choice of his opponent. If both players choose the same option (e.g. "paper"), the game outcome is "draw".
 
 ### Algorithm
-First we ask the player to make his/her move.Then the computer makes a randome move.The winner is determined based on that information.
+First we ask the player to make his/her move.Then the computer makes a random move.The winner is determined based on that information.
 
 ![image](https://user-images.githubusercontent.com/126717931/222572822-c01fb672-8715-4792-b4a2-931009647101.png)
 
