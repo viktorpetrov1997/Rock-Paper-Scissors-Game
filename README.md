@@ -1,7 +1,7 @@
 # The "Rock - Paper - Scissors" Game
 
 ### Project Goals
-The goal of the project is to create a console game called Rock - Paper - Scissors. Rock - Paper - Scissors is a simple two player game where you and your opponent (the computer) simultaneously choose one of the following three options: "rock", "paper" or "scissors". 
+The goal of the project is to create a console game called Rock - Paper - Scissors.It is a simple two player game where you and your opponent (the computer) simultaneously choose one of the following three options: "rock", "paper" or "scissors". 
 
 The rules are as follows:
 
