@@ -90,7 +90,7 @@ public class RockPaperScissors
             System.out.println();
             while(true)
             {
-                System.out.print("Do you want to play again? ");
+                System.out.print("Do you want to play again? (yes/no or y/n): ");
                 playAgain = scanner.nextLine();
                 if(playAgain.equalsIgnoreCase("yes") || playAgain.equalsIgnoreCase("y"))
                 {
