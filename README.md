@@ -24,7 +24,7 @@ First we ask the player to make his/her move.Then the computer makes a random mo
 
 After that we print the score of the players so far and ask the player if he/she wants to play the game again.If the player chooses to play the game again,the game is restarted.Otherwise the game ends.
 
-![image](https://user-images.githubusercontent.com/126717931/222573039-289b805d-c95d-4705-a85f-6ed191350259.png)
+![image](https://github.com/viktorpetrov1997/Rock-Paper-Scissors-Game/assets/126717931/75f8f67d-f706-409c-8b95-4f5da52a54cd)
 
 ### Source code link
 <a href="https://github.com/viktorpetrov1997/RockPaperScissorsGame/blob/main/RockPaperScissors.java">[Source code]</a>
