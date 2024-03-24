@@ -35,7 +35,6 @@ After that we print the score of the players so far and ask the player if he/she
 ### Live demo
 You can try the game directly in your web browser here:
 
-<a href="https://replit.com/@viktorpetrov97/RockPaperScissorsGame#Main.java"><img src="https://user-images.githubusercontent.com/126717931/225292877-37b48e35-8ce7-49ac-85ff-304c51ad5609.png"></a>
-![image](https://github.com/viktorpetrov1997/Rock-Paper-Scissors-Game/assets/126717931/1a9a0ed3-721f-4d14-8501-8b492cfeca94)
+<a href="https://replit.com/@viktorpetrov97/RockPaperScissorsGame#Main.java"><img src="https://github.com/viktorpetrov1997/Rock-Paper-Scissors-Game/assets/126717931/1a9a0ed3-721f-4d14-8501-8b492cfeca94"></a>
 
 
