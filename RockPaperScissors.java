@@ -13,7 +13,6 @@ public class RockPaperScissors
 
         Scanner scanner = new Scanner(System.in);
 
-        String playAgain = "";
         boolean thePlayerWantsToPlayAgain = false;
         int playerWins = 0;
         int computerWins = 0;
@@ -24,21 +23,21 @@ public class RockPaperScissors
             System.out.print("Choose [r]ock, [p]aper, or [s]cissors: ");
             String playerMove = scanner.nextLine();
 
-            if(playerMove.equals("r") || playerMove.equals("rock"))
+            if(playerMove.equalsIgnoreCase("r") || playerMove.equalsIgnoreCase("rock"))
             {
                 playerMove = ROCK;
             }
-            else if(playerMove.equals("p") || playerMove.equals("paper"))
+            else if(playerMove.equalsIgnoreCase("p") || playerMove.equalsIgnoreCase("paper"))
             {
                 playerMove = PAPER;
             }
-            else if(playerMove.equals("s") || playerMove.equals("scissors"))
+            else if(playerMove.equalsIgnoreCase("s") || playerMove.equalsIgnoreCase("scissors"))
             {
                 playerMove = SCISSORS;
             }
             else
             {
-                System.out.println("Invalid input. Try again...");
+                System.out.println("Invalid input. Please try again...");
                 continue;
             }
 
@@ -47,7 +46,7 @@ public class RockPaperScissors
 
             String computerMove = "";
 
-            switch (computerRandomNumber)
+            switch(computerRandomNumber)
             {
                 case 0:
                     computerMove = ROCK;
@@ -62,14 +61,14 @@ public class RockPaperScissors
 
             System.out.printf("The computer chose %s.%n", computerMove);
 
-            if ((playerMove.equals(ROCK) && computerMove.equals(SCISSORS)) ||
+            if((playerMove.equals(ROCK) && computerMove.equals(SCISSORS)) ||
                     (playerMove.equals(PAPER) && computerMove.equals(ROCK)) ||
                     (playerMove.equals(SCISSORS) && computerMove.equals(PAPER)))
             {
                 playerWins++;
                 System.out.println("You win.");
             }
-            else if ((computerMove.equals(ROCK) && playerMove.equals(SCISSORS)) ||
+            else if((computerMove.equals(ROCK) && playerMove.equals(SCISSORS)) ||
                     (computerMove.equals(PAPER) && playerMove.equals(ROCK)) ||
                     (computerMove.equals(SCISSORS) && playerMove.equals(PAPER)))
             {
@@ -91,7 +90,7 @@ public class RockPaperScissors
             while(true)
             {
                 System.out.print("Do you want to play again? (yes/y or no/n): ");
-                playAgain = scanner.nextLine();
+                String playAgain = scanner.nextLine();
                 if(playAgain.equalsIgnoreCase("yes") || playAgain.equalsIgnoreCase("y"))
                 {
                     thePlayerWantsToPlayAgain = true;
@@ -104,7 +103,7 @@ public class RockPaperScissors
                 }
                 else
                 {
-                    System.out.println("Invalid input. Try again...");
+                    System.out.println("Invalid input. Please try again...");
                     continue;
                 }
             }
