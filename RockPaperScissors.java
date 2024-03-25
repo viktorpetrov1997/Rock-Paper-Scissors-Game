@@ -5,6 +5,32 @@ import java.util.Scanner;
 
 public class RockPaperScissors
 {
+    public static boolean doesThePlayerWantToPlayAgain()
+    {
+        Scanner scanner = new Scanner(System.in);
+        boolean thePlayerWantsToPlayAgain = false;
+        while(true)
+        {
+            System.out.print("Do you want to play again? (yes/y or no/n): ");
+            String playAgain = scanner.nextLine();
+            if(playAgain.equalsIgnoreCase("yes") || playAgain.equalsIgnoreCase("y"))
+            {
+                thePlayerWantsToPlayAgain = true;
+                break;
+            }
+            else if(playAgain.equalsIgnoreCase("no") || playAgain.equalsIgnoreCase("n"))
+            {
+                break;
+            }
+            else
+            {
+                System.out.println("Invalid input. Please try again...");
+                continue;
+            }
+        }
+        return thePlayerWantsToPlayAgain;
+    }
+
     public static void main(String[] args)
     {
         String ROCK = "Rock";
@@ -87,27 +113,8 @@ public class RockPaperScissors
             System.out.printf("Draws : %d%n", draws);
 
             System.out.println();
-            while(true)
-            {
-                System.out.print("Do you want to play again? (yes/y or no/n): ");
-                String playAgain = scanner.nextLine();
-                if(playAgain.equalsIgnoreCase("yes") || playAgain.equalsIgnoreCase("y"))
-                {
-                    thePlayerWantsToPlayAgain = true;
-                    break;
-                }
-                else if(playAgain.equalsIgnoreCase("no") || playAgain.equalsIgnoreCase("n"))
-                {
-                    thePlayerWantsToPlayAgain = false;
-                    break;
-                }
-                else
-                {
-                    System.out.println("Invalid input. Please try again...");
-                    continue;
-                }
-            }
-            if (thePlayerWantsToPlayAgain)
+            thePlayerWantsToPlayAgain = doesThePlayerWantToPlayAgain();
+            if(thePlayerWantsToPlayAgain)
             {
                 continue;
             }
