@@ -13,6 +13,7 @@ public class RockPaperScissors
         {
             System.out.print("Do you want to play again? (yes/y or no/n): ");
             String playAgain = scanner.nextLine();
+            System.out.println();
             if(playAgain.equalsIgnoreCase("yes") || playAgain.equalsIgnoreCase("y"))
             {
                 thePlayerWantsToPlayAgain = true;
