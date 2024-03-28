@@ -16,7 +16,7 @@ The winner is the player whose choice beats the choice of his opponent. If both 
 ### Algorithm
 First we ask the player to make his/her move.Then the computer makes a random move.The winner is determined based on that information.
 
-![image](https://user-images.githubusercontent.com/126717931/222572822-c01fb672-8715-4792-b4a2-931009647101.png)
+![image](https://github.com/viktorpetrov1997/Rock-Paper-Scissors-Game/assets/126717931/1f3fdeca-95ad-46bb-9048-002c336a1547)
 
 ![image](https://user-images.githubusercontent.com/126717931/222571028-df69e870-65a2-441a-acf1-21b037841f0f.png)
 
@@ -30,7 +30,7 @@ After that we print the score of the players so far and ask the player if he/she
 <a href="https://github.com/viktorpetrov1997/RockPaperScissorsGame/blob/main/RockPaperScissors.java">[Source code]</a>
 
 ### Screenshots
-![image](https://github.com/viktorpetrov1997/Rock-Paper-Scissors-Game/assets/126717931/d059feae-9b73-4d74-a0d0-1c00c7eb307d)
+![image](https://github.com/viktorpetrov1997/Rock-Paper-Scissors-Game/assets/126717931/f1f412e6-d7ce-4387-8113-62066d8d9939)
 
 ### Live demo
 You can try the game directly in your web browser here:
