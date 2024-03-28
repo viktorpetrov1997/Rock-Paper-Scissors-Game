@@ -24,7 +24,7 @@ public class RockPaperScissors
             }
             else
             {
-                System.out.println("Invalid input. Please try again...");
+                System.out.println("\nInvalid input. Please try again...\n");
                 continue;
             }
         }
@@ -63,7 +63,7 @@ public class RockPaperScissors
             }
             else
             {
-                System.out.println("Invalid input. Please try again...");
+                System.out.println("\nInvalid input. Please try again...\n");
                 continue;
             }
 
@@ -85,7 +85,7 @@ public class RockPaperScissors
                     break;
             }
 
-            System.out.printf("The computer chose %s.%n", computerMove);
+            System.out.printf("\nThe computer chose %s.%n", computerMove);
 
             if((playerMove.equals(ROCK) && computerMove.equals(SCISSORS)) ||
                     (playerMove.equals(PAPER) && computerMove.equals(ROCK)) ||
