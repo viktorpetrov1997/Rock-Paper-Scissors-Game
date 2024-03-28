@@ -30,7 +30,7 @@ After that we print the score of the players so far and ask the player if he/she
 <a href="https://github.com/viktorpetrov1997/RockPaperScissorsGame/blob/main/RockPaperScissors.java">[Source code]</a>
 
 ### Screenshots
-![image](https://github.com/viktorpetrov1997/Rock-Paper-Scissors-Game/assets/126717931/d059feae-9b73-4d74-a0d0-1c00c7eb307d)
+![image](https://github.com/viktorpetrov1997/Rock-Paper-Scissors-Game/assets/126717931/f1f412e6-d7ce-4387-8113-62066d8d9939)
 
 ### Live demo
 You can try the game directly in your web browser here:
