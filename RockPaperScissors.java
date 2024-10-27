@@ -9,6 +9,7 @@ public class RockPaperScissors
     {
         Scanner scanner = new Scanner(System.in);
         boolean thePlayerWantsToPlayAgain = false;
+
         while(true)
         {
             System.out.print("Do you want to play again? (yes/y or no/n): ");
