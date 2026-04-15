@@ -1,4 +1,4 @@
-# 🖥️ Rock Paper Scissors Game
+# 🖥️ Rock Paper Scissors
 
 ### 📝 Project Description
 
