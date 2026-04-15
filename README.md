@@ -34,7 +34,7 @@ Otherwise, the game ends.
 You can view the full implementation here:  
 👉 [RockPaperScissors.java](https://github.com/viktorpetrov1997/RockPaperScissorsGame/blob/main/RockPaperScissors.java)
 
-## 📸 Screenshots
+## 📸 Screenshot
 ![image](https://github.com/viktorpetrov1997/Rock-Paper-Scissors-Game/assets/126717931/f1f412e6-d7ce-4387-8113-62066d8d9939)
 
 ## 🚀 Live Demo
