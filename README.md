@@ -16,6 +16,7 @@ The rules are simple:
 If both players choose the same option, the round ends in a draw.
 
 The winner is the player whose choice defeats the opponent’s selection.
+
 ## 🎮 How It Works
 The game follows a simple loop:
 
